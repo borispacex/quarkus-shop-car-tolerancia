@@ -1,0 +1,5 @@
+/////////// CLASE 20
+-- agregamos extension maven 
+quarkus-smallrye-fault-tolerance
+ mvn quarkus:add-extension -Dextensions="smallrye-fault-tolerance"
+

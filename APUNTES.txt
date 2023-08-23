@@ -1,5 +1,10 @@
 /////////// CLASE 20
--- agregamos extension maven 
+-- agregamos extension maven en SHOP
 quarkus-smallrye-fault-tolerance
  mvn quarkus:add-extension -Dextensions="smallrye-fault-tolerance"
-
+ 
+-- EJECUTAMOS proyectos
+cd car-tolerancia
+mvn compile quarkus:dev
+cd shop-tolerancia
+mvn compile quarkus:dev -Ddebug=5006
